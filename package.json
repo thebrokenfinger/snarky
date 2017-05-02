@@ -1,0 +1,38 @@
+{
+  "name": "snarky",
+  "version": "0.1.0",
+  "description": "Extends `snarkdown` and exposes a Promise API",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava",
+    "format": "prettier --write '*.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yatharthk/snarky.git"
+  },
+  "keywords": [
+    "markdown",
+    "gfm",
+    "md",
+    "html",
+    "parser",
+    "util",
+    "plugins",
+    "promise"
+  ],
+  "author": "Yatharth Khatri <yatharth01@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yatharthk/snarky/issues"
+  },
+  "homepage": "https://github.com/yatharthk/snarky#readme",
+  "devDependencies": {
+    "ava": "^0.19.1",
+    "prettier": "^1.2.2"
+  },
+  "dependencies": {
+    "pinkie-promise": "^2.0.1",
+    "snarkdown": "^1.2.2"
+  }
+}
